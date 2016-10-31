@@ -15,5 +15,9 @@
 //= require turbolinks
 //= require react
 //= require react_ujs
+//= require jquery
+//= require tether
+//= require bootstrap-sprockets
+//= require react_bootstrap
 //= require components
 //= require_tree .
