@@ -14,12 +14,13 @@ class ArtistsController < ApplicationController
     a = params['arsonist']
 
     Artist.create(:name => n, :instrument => i, :arsonist => (a == 'true' ? 1 : 0))
+
     redirect_to '/artists'
   end
 
   def destroy
     Artist.destroy_existing(params[:id])
-    
+
     redirect_to '/artists'
   end
 end
