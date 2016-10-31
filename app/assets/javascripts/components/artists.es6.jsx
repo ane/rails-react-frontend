@@ -1,5 +1,5 @@
-var { Button, ControlLabel, Form, FormControl, FormGroup } = ReactBootstrap;
-
+var Form = ReactBootstrap.Form;
+ 
 class Artists extends React.Component {
   render () {
     var rows = [];
@@ -17,7 +17,7 @@ class Artists extends React.Component {
                 <th>Id</th>
                 <th>Name</th>
                 <th>Instrument</th>
-                <th>Is an arsonist?</th>
+                <th>Has burnt churches?</th>
               </tr>
             </thead>
             <tbody>
